@@ -198,7 +198,7 @@ Check_Arch() {
         "https://github.com/dlk910311/CasaOS-Gateway/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-gateway-v0.3.6.tar.gz"
         "https://github.com/dlk910311/CasaOS-UserService/releases/download/v0.3.7/linux-${TARGET_ARCH}-casaos-user-service-v0.3.7.tar.gz"
         "https://github.com/dlk910311/CasaOS-LocalStorage/releases/download/v0.3.7-1/linux-${TARGET_ARCH}-casaos-local-storage-v0.3.7-1.tar.gz"
-        "https://github.com/dlk910311/CasaOS/releases/download/v0.3.7/linux-${TARGET_ARCH}-casaos-v0.3.7.tar.gz"
+        "https://gitee.com/dlk910311/CasaOS/releases/download/${Casa_Tag}/${Casa_Package}"
         "https://github.com/dlk910311/CasaOS-UI/releases/download/v0.3.7/linux-all-casaos-v0.3.7.tar.gz"
     )
 }
