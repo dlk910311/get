@@ -73,7 +73,7 @@ UNAME_U="$(uname -s)"
 readonly UNAME_U
 
 readonly CASA_CONF_PATH=/etc/casaos/gateway.ini
-readonly CASA_UNINSTALL_URL="https://raw.githubusercontent.com/IceWhaleTech/get/main/uninstall.sh"
+readonly CASA_UNINSTALL_URL="https://raw.githubusercontents.com/IceWhaleTech/get/main/casaos-uninstall.sh"
 readonly CASA_UNINSTALL_PATH=/usr/bin/casaos-uninstall
 
 # REQUIREMENTS CONF PATH
@@ -195,11 +195,11 @@ Check_Arch() {
     esac
     Show 0 "Your hardware architecture is : $UNAME_M"
     CASA_PACKAGES=(
-        "https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-gateway-v0.3.6.tar.gz"
-        "https://github.com/IceWhaleTech/CasaOS-UserService/releases/download/v0.3.7/linux-${TARGET_ARCH}-casaos-user-service-v0.3.7.tar.gz"
-        "https://github.com/IceWhaleTech/CasaOS-LocalStorage/releases/download/v0.3.7-1/linux-${TARGET_ARCH}-casaos-local-storage-v0.3.7-1.tar.gz"
-        "https://github.com/IceWhaleTech/CasaOS/releases/download/v0.3.7/linux-${TARGET_ARCH}-casaos-v0.3.7.tar.gz"
-        "https://github.com/IceWhaleTech/CasaOS-UI/releases/download/v0.3.7/linux-all-casaos-v0.3.7.tar.gz"
+        "https://github.com/dlk910311/CasaOS-Gateway/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-gateway-v0.3.6.tar.gz"
+        "https://github.com/dlk910311/CasaOS-UserService/releases/download/v0.3.7/linux-${TARGET_ARCH}-casaos-user-service-v0.3.7.tar.gz"
+        "https://github.com/dlk910311/CasaOS-LocalStorage/releases/download/v0.3.7-1/linux-${TARGET_ARCH}-casaos-local-storage-v0.3.7-1.tar.gz"
+        "https://github.com/dlk910311/CasaOS/releases/download/v0.3.7/linux-${TARGET_ARCH}-casaos-v0.3.7.tar.gz"
+        "https://github.com/dlk910311/CasaOS-UI/releases/download/v0.3.7/linux-all-casaos-v0.3.7.tar.gz"
     )
 }
 
